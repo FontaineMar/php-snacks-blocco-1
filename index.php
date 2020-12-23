@@ -68,7 +68,7 @@ $matchs = [
 <p>
   <?php
     for ($i = 0; $i < count($matchs); $i++){
-      echo $matchs["$i"]["home"] . '-' .$matchs["$i"]["guests"] .'= '. $matchs["$i"]["point-home"] . ' | ' .$matchs["$i"]["point-guest"] . '<br>';
+      echo $matchs["$i"]["home"] . '-' .$matchs["$i"]["guests"] .' | '. $matchs["$i"]["point-home"] . '-' .$matchs["$i"]["point-guest"] . '<br>';
     }
   ?>
 </p>
